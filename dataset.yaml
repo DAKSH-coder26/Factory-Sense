@@ -1,0 +1,12 @@
+# dataset.yaml
+
+# Path to the root 'data' directory (relative to where you run the train command)
+path: ./data
+
+# Directories for training and validation images
+train: train/images
+val: val/images
+
+# Class details
+nc: 5 # number of classes
+names: ['bottle_empty', 'bottle_filling', 'bottle_filled', 'bottle_capped', 'bottle_labeled']
