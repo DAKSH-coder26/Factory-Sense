@@ -22,14 +22,11 @@ This project is a powerful demonstration of how synthetic data can be used to tr
 ## **Project Structure**
 
 .  
-├── agent/  
-│   └── llm\_reasoner.py       \# Handles communication with the Gemini LLM.  
-├── tracking/  
-│   ├── anomaly\_detector.py   \# Defines the rules for identifying anomalies.  
-│   └── bottle\_tracker.py       \# Stores and manages the history of each bottle.  
-├── vision/  
-│   ├── deep\_sort\_tracker.py  \# Implements the DeepSORT tracking algorithm.  
-│   └── yolo\_detector.py      \# Manages the YOLOv8 object detection model.  
+├── llm\_reasoner.py       \# Handles communication with the Gemini LLM.  
+├── anomaly\_detector.py   \# Defines the rules for identifying anomalies.  
+├── bottle\_tracker.py       \# Stores and manages the history of each bottle.  
+├── deep\_sort\_tracker.py  \# Implements the DeepSORT tracking algorithm. 
+├──  yolo\_detector.py      \# Manages the YOLOv8 object detection model.
 ├── backgrounds/                \# (Optional) Folder for background images for the simulation.  
 ├── bottle1.png                 \# Image asset for the bottle simulation.  
 ├── generate\_data.py            \# Step 1: Script to create the synthetic dataset.  
